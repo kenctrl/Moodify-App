@@ -1,10 +1,8 @@
 //
 //  TableViewController.swift
-//  BlueprintDemoApp
+//  MoodifyApp
 //
-//  Created by Mindy Long on 2/4/21.
 //
-
 import UIKit
 import SwiftUI
 

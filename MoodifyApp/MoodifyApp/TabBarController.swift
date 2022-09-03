@@ -1,10 +1,8 @@
 //
 //  TabBarController.swift
-//  BlueprintDemoApp
+//  MoodifyApp
 //
-//  Created by Mindy Long on 2/20/21.
 //
-
 import Foundation
 import UIKit
 

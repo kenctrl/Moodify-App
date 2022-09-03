@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  BlueprintDemoApp
+//  MoodifyApp
 //
 //
 import UIKit

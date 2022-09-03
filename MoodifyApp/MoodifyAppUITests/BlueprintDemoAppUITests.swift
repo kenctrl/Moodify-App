@@ -2,9 +2,7 @@
 //  BlueprintDemoAppUITests.swift
 //  BlueprintDemoAppUITests
 //
-//  Created by Mindy Long on 2/2/21.
 //
-
 import XCTest
 
 class BlueprintDemoAppUITests: XCTestCase {

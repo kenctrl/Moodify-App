@@ -2,11 +2,9 @@
 //  BlueprintDemoAppTests.swift
 //  BlueprintDemoAppTests
 //
-//  Created by Mindy Long on 2/2/21.
 //
-
 import XCTest
-@testable import BlueprintDemoApp
+@testable import MoodifyApp
 
 class BlueprintDemoAppTests: XCTestCase {
 

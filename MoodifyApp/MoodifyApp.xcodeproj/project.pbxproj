@@ -13,7 +13,7 @@
 		A877609525CA5016007A5040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A877609425CA5016007A5040 /* AppDelegate.swift */; };
 		A877609725CA5016007A5040 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A877609625CA5016007A5040 /* SceneDelegate.swift */; };
 		A877609925CA5016007A5040 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A877609825CA5016007A5040 /* HomeViewController.swift */; };
-		A877609C25CA5016007A5040 /* BlueprintDemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A877609A25CA5016007A5040 /* BlueprintDemoApp.xcdatamodeld */; };
+		A877609C25CA5016007A5040 /* MoodifyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A877609A25CA5016007A5040 /* MoodifyApp.xcdatamodeld */; };
 		A877609E25CA5016007A5040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A877609D25CA5016007A5040 /* Assets.xcassets */; };
 		A87760A125CA5016007A5040 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87760A025CA5016007A5040 /* Preview Assets.xcassets */; };
 		A87760A425CA5016007A5040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87760A225CA5016007A5040 /* LaunchScreen.storyboard */; };
@@ -32,14 +32,14 @@
 			containerPortal = A877608925CA5015007A5040 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A877609025CA5016007A5040;
-			remoteInfo = BlueprintDemoApp;
+			remoteInfo = MoodifyApp;
 		};
 		A87760B625CA5016007A5040 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A877608925CA5015007A5040 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A877609025CA5016007A5040;
-			remoteInfo = BlueprintDemoApp;
+			remoteInfo = MoodifyApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -47,11 +47,11 @@
 		692A836725E2F77700063F20 /* SongOfDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongOfDayViewController.swift; sourceTree = "<group>"; };
 		692A836F25E2FFCF00063F20 /* Songs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Songs.json; sourceTree = "<group>"; };
 		A85D054525CCA2F30014E9E0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		A877609125CA5016007A5040 /* BlueprintDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueprintDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A877609125CA5016007A5040 /* MoodifyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodifyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A877609425CA5016007A5040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A877609625CA5016007A5040 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A877609825CA5016007A5040 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		A877609B25CA5016007A5040 /* BlueprintDemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlueprintDemoApp.xcdatamodel; sourceTree = "<group>"; };
+		A877609B25CA5016007A5040 /* MoodifyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoodifyApp.xcdatamodel; sourceTree = "<group>"; };
 		A877609D25CA5016007A5040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A87760A025CA5016007A5040 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A87760A325CA5016007A5040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		A877608825CA5015007A5040 = {
 			isa = PBXGroup;
 			children = (
-				A877609325CA5016007A5040 /* BlueprintDemoApp */,
+				A877609325CA5016007A5040 /* MoodifyApp */,
 				A87760AD25CA5016007A5040 /* BlueprintDemoAppTests */,
 				A87760B825CA5016007A5040 /* BlueprintDemoAppUITests */,
 				A877609225CA5016007A5040 /* Products */,
@@ -107,14 +107,14 @@
 		A877609225CA5016007A5040 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A877609125CA5016007A5040 /* BlueprintDemoApp.app */,
+				A877609125CA5016007A5040 /* MoodifyApp.app */,
 				A87760AA25CA5016007A5040 /* BlueprintDemoAppTests.xctest */,
 				A87760B525CA5016007A5040 /* BlueprintDemoAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A877609325CA5016007A5040 /* BlueprintDemoApp */ = {
+		A877609325CA5016007A5040 /* MoodifyApp */ = {
 			isa = PBXGroup;
 			children = (
 				A877609425CA5016007A5040 /* AppDelegate.swift */,
@@ -130,10 +130,10 @@
 				692A836F25E2FFCF00063F20 /* Songs.json */,
 				A87760A225CA5016007A5040 /* LaunchScreen.storyboard */,
 				A87760A525CA5016007A5040 /* Info.plist */,
-				A877609A25CA5016007A5040 /* BlueprintDemoApp.xcdatamodeld */,
+				A877609A25CA5016007A5040 /* MoodifyApp.xcdatamodeld */,
 				A877609F25CA5016007A5040 /* Preview Content */,
 			);
-			path = BlueprintDemoApp;
+			path = MoodifyApp;
 			sourceTree = "<group>";
 		};
 		A877609F25CA5016007A5040 /* Preview Content */ = {
@@ -165,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A877609025CA5016007A5040 /* BlueprintDemoApp */ = {
+		A877609025CA5016007A5040 /* MoodifyApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A87760BE25CA5016007A5040 /* Build configuration list for PBXNativeTarget "BlueprintDemoApp" */;
+			buildConfigurationList = A87760BE25CA5016007A5040 /* Build configuration list for PBXNativeTarget "MoodifyApp" */;
 			buildPhases = (
 				A877608D25CA5016007A5040 /* Sources */,
 				A877608E25CA5016007A5040 /* Frameworks */,
@@ -177,12 +177,12 @@
 			);
 			dependencies = (
 			);
-			name = BlueprintDemoApp;
+			name = MoodifyApp;
 			packageProductDependencies = (
 				A8C5BBC525E1AB5700346569 /* SwiftyJSON */,
 			);
-			productName = BlueprintDemoApp;
-			productReference = A877609125CA5016007A5040 /* BlueprintDemoApp.app */;
+			productName = MoodifyApp;
+			productReference = A877609125CA5016007A5040 /* MoodifyApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A87760A925CA5016007A5040 /* BlueprintDemoAppTests */ = {
@@ -243,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A877608C25CA5015007A5040 /* Build configuration list for PBXProject "BlueprintDemoApp" */;
+			buildConfigurationList = A877608C25CA5015007A5040 /* Build configuration list for PBXProject "MoodifyApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,7 +259,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A877609025CA5016007A5040 /* BlueprintDemoApp */,
+				A877609025CA5016007A5040 /* MoodifyApp */,
 				A87760A925CA5016007A5040 /* BlueprintDemoAppTests */,
 				A87760B425CA5016007A5040 /* BlueprintDemoAppUITests */,
 			);
@@ -300,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A877609C25CA5016007A5040 /* BlueprintDemoApp.xcdatamodeld in Sources */,
+				A877609C25CA5016007A5040 /* MoodifyApp.xcdatamodeld in Sources */,
 				A8C5BBD625E1C8A700346569 /* TabBarController.swift in Sources */,
 				A8C5BBCB25E1AC1000346569 /* MovieParser.swift in Sources */,
 				692A836825E2F77700063F20 /* SongOfDayViewController.swift in Sources */,
@@ -333,12 +333,12 @@
 /* Begin PBXTargetDependency section */
 		A87760AC25CA5016007A5040 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A877609025CA5016007A5040 /* BlueprintDemoApp */;
+			target = A877609025CA5016007A5040 /* MoodifyApp */;
 			targetProxy = A87760AB25CA5016007A5040 /* PBXContainerItemProxy */;
 		};
 		A87760B725CA5016007A5040 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A877609025CA5016007A5040 /* BlueprintDemoApp */;
+			target = A877609025CA5016007A5040 /* MoodifyApp */;
 			targetProxy = A87760B625CA5016007A5040 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -477,15 +477,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BlueprintDemoApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MoodifyApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 275BA9MHBN;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BlueprintDemoApp/Info.plist;
+				INFOPLIST_FILE = MoodifyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mindy-Long.BlueprintDemoApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mindy-Long.MoodifyApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,15 +498,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BlueprintDemoApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MoodifyApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 275BA9MHBN;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BlueprintDemoApp/Info.plist;
+				INFOPLIST_FILE = MoodifyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mindy-Long.BlueprintDemoApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mindy-Long.MoodifyApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -531,7 +531,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueprintDemoApp.app/BlueprintDemoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodifyApp.app/MoodifyApp";
 			};
 			name = Debug;
 		};
@@ -553,7 +553,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueprintDemoApp.app/BlueprintDemoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodifyApp.app/MoodifyApp";
 			};
 			name = Release;
 		};
@@ -573,7 +573,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BlueprintDemoApp;
+				TEST_TARGET_NAME = MoodifyApp;
 			};
 			name = Debug;
 		};
@@ -593,14 +593,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BlueprintDemoApp;
+				TEST_TARGET_NAME = MoodifyApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A877608C25CA5015007A5040 /* Build configuration list for PBXProject "BlueprintDemoApp" */ = {
+		A877608C25CA5015007A5040 /* Build configuration list for PBXProject "MoodifyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A87760BC25CA5016007A5040 /* Debug */,
@@ -609,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A87760BE25CA5016007A5040 /* Build configuration list for PBXNativeTarget "BlueprintDemoApp" */ = {
+		A87760BE25CA5016007A5040 /* Build configuration list for PBXNativeTarget "MoodifyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A87760BF25CA5016007A5040 /* Debug */,
@@ -658,13 +658,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		A877609A25CA5016007A5040 /* BlueprintDemoApp.xcdatamodeld */ = {
+		A877609A25CA5016007A5040 /* MoodifyApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A877609B25CA5016007A5040 /* BlueprintDemoApp.xcdatamodel */,
+				A877609B25CA5016007A5040 /* MoodifyApp.xcdatamodel */,
 			);
-			currentVersion = A877609B25CA5016007A5040 /* BlueprintDemoApp.xcdatamodel */;
-			path = BlueprintDemoApp.xcdatamodeld;
+			currentVersion = A877609B25CA5016007A5040 /* MoodifyApp.xcdatamodel */;
+			path = MoodifyApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

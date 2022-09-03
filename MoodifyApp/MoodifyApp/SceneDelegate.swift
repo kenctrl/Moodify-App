@@ -1,10 +1,8 @@
 //
 //  SceneDelegate.swift
-//  BlueprintDemoApp
+//  MoodifyApp
 //
-//  Created by Mindy Long on 2/2/21.
 //
-
 import UIKit
 import SwiftUI
 
